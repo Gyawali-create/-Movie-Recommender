@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets (never commit .env, commit .env.example instead)
+.env
+
+# Experiment tracking
+mlruns/
+mlflow.db
+aim/
+
+# Data (tracked by DVC, not Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/raw/*.dvc
+!data/processed/.gitkeep
+
+# Models
+models/*.pkl
+models/*.pt
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

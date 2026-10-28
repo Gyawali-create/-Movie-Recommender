@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+joblib
+optuna
+mlflow
+dvc
+fastapi
+uvicorn[standard]
+streamlit
+requests
+python-dotenv
+matplotlib
+ipykernel
+pytest
+httpx
