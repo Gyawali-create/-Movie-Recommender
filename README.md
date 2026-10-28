@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender (AI/ML Team Project)
+# 🎬 Movie Recommender (AI|ML Team Project)
 
 A movie recommendation system built on the **MovieLens** dataset. We train two models
 (**Logistic Regression** and **Decision Tree**) to predict whether a user will like a movie
@@ -250,5 +250,6 @@ Bindu pushes commits 1 to 7 to `dev` first so the others can start.
 > The best model is served through FastAPI and a Streamlit app calls that API to show
 > recommendations. We worked on GitHub with main, dev and test branches, and each member has
 > their own commits and reviews."
-#   - M o v i e - R e c o m m e n d e r  
+#   - M o v i e - R e c o m m e n d e r 
+ 
  
