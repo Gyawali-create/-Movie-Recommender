@@ -1,4 +1,4 @@
-"""Hyperparameter tuning with Optuna. (Ayush)
+"""Hyperparameter tuning with  Optuna. (Ayush)
 
 Run:  python -m ai_ml.models.tune --trials 30
 """

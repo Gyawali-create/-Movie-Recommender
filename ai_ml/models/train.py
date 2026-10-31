@@ -1,4 +1,4 @@
-"""Train Logistic Regression and Decision Tree, track with MLflow. (Ayush)
+"""Train Logistic Regression and  Decision Tree, track with MLflow. (Ayush)
 
 Run:  python -m ai_ml.models.train
 """
