@@ -1,10 +1,10 @@
-"""Model evaluation and cost function. (Ayush)"""
+"""Model evaluation and cost function. (Ayush )"""
 import numpy as np
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
 
 
 def recommendation_cost(y_true, y_pred, fp_cost: float = 1.0, fn_cost: float = 0.5) -> float:
-    """Average cost per prediction (lower is better).
+    """Average cost per prediction ( lower is better).
 
     False positive = we recommend a movie the user dislikes (bad experience, cost 1.0).
     False negative = we miss a movie the user would like (lost chance, cost 0.5).
