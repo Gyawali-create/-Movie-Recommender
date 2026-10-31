@@ -1,4 +1,4 @@
-"""Model evaluation and cost function. (Ayush)"""
+"""Model evaluation and cost function. (Ayush )"""
 import numpy as np
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
 
